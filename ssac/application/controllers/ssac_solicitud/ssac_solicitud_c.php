@@ -113,9 +113,9 @@ class Ssac_solicitud_c extends CI_Controller {
 				
 		$data = json_decode(curl_exec($ch),true);
 			
-		echo('<pre>');
-				var_dump($data);
-		echo('</pre>');
+		// echo('<pre>');
+				// var_dump($data);
+		// echo('</pre>');
 			
 		curl_close($ch);
 	}
